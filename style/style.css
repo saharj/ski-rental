@@ -121,6 +121,7 @@ address, .open-time{
   -webkit-transform: rotate(4deg);
 }
 .map-pic {
+  width: 300px;
 }
 .staple {
   position: absolute;
