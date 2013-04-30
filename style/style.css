@@ -1,0 +1,444 @@
+
+body{
+  width: 100%;
+  background: url("/images/background.png");
+}
+address, .open-time, td {
+  font-family: sans-serif;
+}
+html a:hover, html a:focus {
+  background-color: inherit;
+  background-position: 0 0;
+  text-decoration: none;
+}
+body > header{
+  padding-left: 130px;
+  background-color: #005ca4;
+  box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.37);
+  border: 2px solid rgb(64, 64, 88);
+  border-style: solid none;
+  overflow: auto;
+}
+body > header .logo {
+  font-size: 40.5px;
+  line-height: 103px;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  margin: 0;
+  float: left;
+  text-shadow: 1px 1px 4px black;
+}
+body > header .quick-contact {
+  float: right;
+  color: white;
+  font-family: sans-serif;
+  padding: 10px 50px;
+}
+.quick-contact p {
+  margin-bottom: 0;
+}
+.quick-contact span {
+  margin-left: 28px;
+}
+header .phone a {
+  color: white;
+}
+body > header .logo:hover {
+  color: white;
+}
+body .container {
+  width: 65%; 
+  position: relative;
+  background-color: white;
+  z-index: 1;
+}
+.main-nav {
+  position: absolute;
+  left: -117px;
+  top: 10px;
+}
+.main-nav .btn {
+  position: relative;
+}
+.main-nav .btn-success {
+  z-index: 3;
+}
+.main-nav .cover {
+  width: 15%;
+  height: 93%;
+  position: absolute;
+  top: 8px;
+  left: 117px;
+  background-color: white;
+}
+.nav-pills.nav {
+  z-index: -1;
+  margin-bottom: 10px;
+}
+.nav .btn {
+  margin: 10px 0;
+  padding: 0 10px;
+  display: block;
+  line-height: 38px;
+}
+.content, .price {
+  padding: 10px 10px 30px 30px;
+  overflow: visible;
+}
+.text {
+  clear: both;
+  padding-bottom: 20px;
+}
+.wrapper {
+  float: left;
+}
+address, .open-time{
+  margin-left: 4%;
+  width: 280px;
+  background-color: white;
+}
+.open-time .time {
+  margin: 0 1em;
+  display: inline-block;
+}
+.content .hero-img {
+  width: 100%;
+  box-shadow: -1px 2px 10px rgb(148, 148, 148);
+  height: 470px;
+  margin-bottom: 30px;
+  background-size: cover;
+  background-image: url("/images/hero.jpg");
+}
+.map {
+  width: 300px;
+  margin-right: 1px;
+  height: 300px;
+  float: right;
+  position: relative;
+  margin: 25px 0;
+  background-color: lightblue;
+  box-shadow: 3px 3px 2px gray;
+  -webkit-transform: rotate(4deg);
+}
+.map-pic {
+}
+.staple {
+  position: absolute;
+  right: -22px;
+}
+.logos {
+  padding: 50px 16%;
+  min-height: 200px;
+  background-color: rgb(31, 31, 31);
+  box-shadow: inset 0px 13px 23px black;
+}
+.logos div {
+  display: inline-block;
+  vertical-align: middle;
+}
+.logos > div {
+  height: 90px;
+  line-height: 90px;
+  padding: 0 1%;
+}
+
+.atomic {
+    width: 89px;
+    height: 21px;
+    background-image: url(/images/sprite.png);
+    background-position: -91px -0px;
+}
+.marker {
+    width: 89px;
+    height: 41px;
+    background-image: url(/images/sprite.png);
+    background-position: -91px -31px;
+}
+.Nordica {
+    width: 89px;
+    height: 10px;
+    background-image: url(/images/sprite.png);
+    background-position: -91px -82px;
+}
+.Rossignol {
+    width: 89px;
+    height: 83px;
+    background-image: url(/images/sprite.png);
+    background-position: -91px -102px;
+}
+.salomon {
+    width: 89px;
+    height: 50px;
+    background-image: url(/images/sprite.png);
+    background-position: -91px -195px;
+}
+.skis {
+    width: 89px;
+    height: 72px;
+    background-image: url(/images/sprite.png);
+    background-position: -91px -255px;
+}
+.technica {
+    width: 89px;
+    height: 19px;
+    background-image: url(/images/sprite.png);
+    background-position: -91px -337px;
+}
+.volkl {
+    width: 89px;
+    height: 26px;
+    background-image: url(/images/sprite.png);
+    background-position: -91px -366px;
+}
+
+
+/*PRICE------------------*/
+strong {
+  display: block;
+  line-height: 25px;
+}
+.price .first-line {
+  margin-top: 15px;
+}
+.price .offer {
+  display: block;
+  padding: 12px 20px;
+  width: 90%;
+  color: rgb(219, 0, 0);
+  font-family: sans-serif;
+  font-size: 14px;
+  text-align: center;
+  background-color: rgba(231, 196, 192, 0.66);
+}
+.price .unstyled {
+  padding-left: 5px;
+  margin-bottom: 30px;
+}
+.table {
+  width: 100%;
+}
+.price .table-bordered th, .price .table-bordered td {
+  text-align: center;
+  padding: 6px 1px;
+  vertical-align: middle;
+}
+.price .table th {
+  color: rgb(58, 58, 58);
+  font-size: 13px;
+  background-color: rgba(196, 233, 236, 0.74);
+}
+.table td {
+  width: 110px;
+  font-size: 14px;
+}
+.table .first-td {
+  width: 130px;
+}
+/*Weather-----------------------------*/
+.container .weather {
+  padding: 10px 20px;
+  overflow: auto;
+}
+.weather .city-wrapper {
+  overflow: auto;
+}
+.city-wrapper h4 {
+  text-align: center;
+  margin: 30px 0 15px;
+}
+.weather table {
+  margin: 0 20px 15px;
+  display: block;
+  width: 350px;
+  background-color: white;
+  font-family: sans-serif;
+}
+.weather .today {
+  float: left;
+}
+.weather .week {
+  float: right;
+}
+.weather .city {
+  width: 100%;
+  position: relative;
+  display: block;
+  height: 200px;
+}
+.city .gradient {
+  background: -moz-linear-gradient(left,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+  background: linear-gradient(to right,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.city-name, .temp {
+  position: absolute;
+  left: 8px;
+  color: white;
+}
+.weather .city-name {
+  font-weight: bold;
+  font-size: 50px;
+  top: 40px;
+}
+.city .temp {
+  top: 87px;
+  font-size: 22px;
+}
+.weather .table canvas {
+  float: left;
+}
+.weather .table div {
+  display: block;
+  float: right;
+  font-size: 15px;
+  line-height: 16px;
+  position: absolute;
+  left: 52px;
+  text-align: left;
+}
+.weather .table th, .weather .table td {
+  text-align: center;
+}
+.weather .table th {
+  background-color: rgba(1, 91, 78, 0.7);
+}
+.weather .table td {
+  font-size: 17px;
+  position: relative;
+}
+.weather .week td {
+  line-height: 72px;
+}
+.weather canvas {
+  width: 40px;
+  float: left;
+}
+
+/*Resort links------------------------*/
+.resort-links .table-bordered {
+  width: 80%;
+  margin: 50px auto;
+  background-color: white;
+  border: 2px solid #999999;
+}
+.resort-links .table td {
+  text-align: center;
+  border-left: 2px solid #999999;
+  border-top: 2px solid #999999;
+}
+.resort-links .table a {
+  line-height: 40px;
+  font-size: 20px;
+  color: rgb(82, 155, 189);
+  text-shadow: -1px 0 0px rgb(27, 27, 27);
+}
+
+/*Road info---------------------------*/
+#map-canvas {
+  height: 600px;
+  width: 92%;
+  margin: 10px auto;
+}
+.direction {
+/*  display: block;
+  clear: both;
+  position: absolute;*/
+}
+
+/*Media query-------------------------*/
+
+@media all and (max-width: 1000px) {
+  body .container {
+    width: 70%;
+  }
+  body .weather .week {
+    float: left;
+  }
+}
+@media screen and (max-width: 800px) {
+  body > header {
+    padding: 10px 0 10px 29%;
+  }
+  body > header a {
+    font-size: 37px;
+  }
+  body > header .quick-contact {
+    padding: 0px 30px;
+    line-height: 25px;
+    font-size: 13.5px
+  }
+  header .phone {
+    display: none;
+  }
+  body .container {
+    width: 84%;
+    margin-top: 10px;
+  }
+  .container .main-nav {
+    display: block;
+    position: inherit;
+    left: 7.1%;
+    top: 0;
+    width: 85%;
+  }
+  .main-nav .cover {
+    display: none;
+  }
+  .nav li {
+    height: 3.5em;
+  }
+  .nav a.btn {
+    line-height: 48px;
+  }
+  .content .hero-img {
+    background: url("/images/hero-small.jpg");
+    height: 287px;
+    max-width: 450px;
+    margin: 15px auto;
+  }
+  .map {
+    -webkit-transform: none;
+  }
+  .staple {
+    display: none;
+  }
+  .logos {
+    padding: 5px 9%;
+  }
+  .content, .price {
+    padding: 10px 20px 30px 20px;
+  }
+  .content .hero-img {
+    border-radius: 5px 5px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body > .container {
+    width: 100%;
+  }
+  body > header .quick-contact {
+    display: none;
+  }
+  .price .table th {
+    font-size: 11px;
+  }
+  .price .offer {
+    padding: 12px 4px;
+    width: 98%;
+    font-size: 13px;
+  }
+  body .container .weather {
+    padding: 0;
+  }
+}
+
