@@ -21,7 +21,7 @@ include "../header.php"; ?>
   
 
   <strong>
-    Adult Ski Package: Skis, Boots &amp; Poles (120 cm -195 cm)
+    Adult Ski Package: Skis, Boots &amp; Poles (120 cm - 195 cm)
   </strong>
   <table class="table table-hover table-bordered">
       <thead>
@@ -66,7 +66,7 @@ include "../header.php"; ?>
     </tbody>
   </table>
   <div>
-    <strong>Child Ski Package: Skis, Boots, Poles (80 cm – 130 cm)</strong>
+    <strong>Child Ski Package: Skis, Boots, Poles (80 cm - 130 cm)</strong>
   </div>
   <table class="table table-hover table-bordered">
     <thead>

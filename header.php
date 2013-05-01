@@ -1,17 +1,18 @@
+<?php date_default_timezone_set('America/Los_Angeles'); ?>
 <!doctype html>
 <html>
 <head>
-  <title>Ski Renter</title>
+  <title>Ski Renter Mountain View</title>
   <link rel="stylesheet" type="text/css" href="/style/style.css">
   <link rel="stylesheet" type="text/css" href="/style/bootstrap.css">
   <link href='http://fonts.googleapis.com/css?family=Raleway:700' rel='stylesheet' type='text/css'>
 </head>
 <body>
   <header>
-    <a class="logo" href="/">Ski Renter</a>
+    <a class="logo" href="/">Ski Renter Mountain View</a>
     <div class="quick-contact">
         <p>Today's Open Hours:</p>
-      <?php $dw = date( "w", $timestamp); ?>
+      <?php $dw = date("w"); ?>
       <?php if($dw > 0 && $dw < 4) { // Monday to Wednesday?>
           <span>10 am - 7 pm</span>
       <?php } ?>

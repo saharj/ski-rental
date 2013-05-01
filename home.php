@@ -6,7 +6,7 @@
   <div class="wrapper">
     <address>
       <strong>Address:</strong><br>
-      <a target="_blank" href="https://maps.google.com/?q=897 Independence Ave, Mountain View ,CA 94043">897 Independence Ave, Suite 1c<br> 
+      <a target="_blank" href="https://maps.google.com/?q=897 Independence Ave, Mountain View ,CA 94043">897 Independence Ave, Suite 1C<br> 
         Mountain View ,CA 94043<br>
       </a>
       <abbr>Phone:</abbr> <a href="tel:+16509611414">(650) 961-1414</a><br>
