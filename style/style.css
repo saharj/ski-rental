@@ -63,6 +63,22 @@ body .container {
 .main-nav .btn-success {
   z-index: 3;
 }
+.main-nav .btn-success:hover {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #0065b4;
+  *background-color: #005ca4;
+  background-image: -moz-linear-gradient(top, #006bbe, #005ca4);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#006bbe), to(#005ca4));
+  background-image: -webkit-linear-gradient(top, #006bbe, #005ca4);
+  background-image: -o-linear-gradient(top, #006bbe, #005ca4);
+  background-image: linear-gradient(to bottom, #006bbe, #005ca4);
+  background-repeat: repeat-x;
+  border-color: #005ca4 #005ca4 #003158;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff006bbe', endColorstr='#ff005ca4', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
 .main-nav .cover {
   width: 15%;
   height: 93%;
@@ -80,6 +96,22 @@ body .container {
   padding: 0 10px;
   display: block;
   line-height: 38px;
+}
+.nav .btn-info:hover {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #32a0c0;
+  *background-color: #2f96b4;
+  background-image: -moz-linear-gradient(top, #34a7c8, #2f96b4);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#34a7c8), to(#2f96b4));
+  background-image: -webkit-linear-gradient(top, #34a7c8, #2f96b4);
+  background-image: -o-linear-gradient(top, #34a7c8, #2f96b4);
+  background-image: linear-gradient(to bottom, #34a7c8, #2f96b4);
+  background-repeat: repeat-x;
+  border-color: #2f96b4 #2f96b4 #1f6377;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff34a7c8', endColorstr='#ff2f96b4', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
 .content, .price {
   padding: 10px 10px 30px 30px;
@@ -300,8 +332,8 @@ strong {
 .weather .table div {
   display: block;
   float: right;
-  font-size: 15px;
-  line-height: 16px;
+  font-size: 14px;
+  line-height: 14px;
   position: absolute;
   left: 52px;
   text-align: left;
@@ -364,13 +396,18 @@ strong {
   body .weather .week {
     float: left;
   }
+  .container .weather .table div {
+    font-size: 12px;
+    line-height: 13px;
+  }
 }
 @media screen and (max-width: 800px) {
   body > header {
-    padding: 10px 0 10px 29%;
+    padding: 10px 0 10px 10%;
   }
-  body > header a {
-    font-size: 37px;
+  body > header a.logo {
+    font-size: 27px;
+    text-shadow: 1px 1px 8px black;
   }
   body > header .quick-contact {
     padding: 0px 30px;
